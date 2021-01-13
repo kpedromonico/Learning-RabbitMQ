@@ -15,13 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLog", "EmitLog\EmitLog.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogs", "ReceiveLogs\ReceiveLogs.csproj", "{2B037AFD-D241-45B1-A8F4-0A0BB8B48E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{DC1D5025-CCC5-4AF1-805C-D67084EA9947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{DC1D5025-CCC5-4AF1-805C-D67084EA9947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsDirect", "ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{D9A0B0E5-89C7-434D-A215-D1BB2D7A47F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsDirect", "ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{D9A0B0E5-89C7-434D-A215-D1BB2D7A47F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{7249B944-E56A-46AF-879B-3BFB68C2C85A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{7249B944-E56A-46AF-879B-3BFB68C2C85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsTopic", "ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{6CEB7805-C3EB-478A-998B-688ADE001E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogsTopic", "ReceiveLogsTopic\ReceiveLogsTopic.csproj", "{6CEB7805-C3EB-478A-998B-688ADE001E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCServer", "RPCServer\RPCServer.csproj", "{4EB6164C-0197-4A02-8DAD-0475E375F23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCClient", "RPCClient\RPCClient.csproj", "{8F250334-FF63-4DA2-8E06-EE26B46441AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{6CEB7805-C3EB-478A-998B-688ADE001E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEB7805-C3EB-478A-998B-688ADE001E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEB7805-C3EB-478A-998B-688ADE001E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB6164C-0197-4A02-8DAD-0475E375F23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB6164C-0197-4A02-8DAD-0475E375F23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB6164C-0197-4A02-8DAD-0475E375F23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB6164C-0197-4A02-8DAD-0475E375F23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F250334-FF63-4DA2-8E06-EE26B46441AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F250334-FF63-4DA2-8E06-EE26B46441AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F250334-FF63-4DA2-8E06-EE26B46441AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F250334-FF63-4DA2-8E06-EE26B46441AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
